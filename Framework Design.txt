@@ -1,0 +1,22 @@
+Create a package within 
+src/main/java
+e.g. com.Ecommerce.Ebay.genericlibrary
+organization name.domain name.application name.package name
+
+Create an Interface to declare the constants 
+/* key and value which are used in system.set property */
+/* Property file path and excel path also remains constant so just store them in  a variable  */
+/* Screenshots are always stored in a folder, store that path in a variable*/
+
+Create a class which contains methods to fetch data from external files(property file or excel sheet)
+Define the method as static, so that it is directly accesible in other classes, with classname.methodname
+
+Create a Base class, here you can define 2 methods to open browser, take screenshot of failed cases & close browser
+
+Create a Utlilities class, here define static methods to handle webelements, e.g. mouseactions, scrollbar, double click, rightclick, etc
+
+Create a Class with a method to take screenshot.
+
+Note: before we did everything using hardcoding the data, now we just have to pass the varaible in the methods, so that it enables reusability.
+
+
